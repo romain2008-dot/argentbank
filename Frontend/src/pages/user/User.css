@@ -1,0 +1,23 @@
+.header {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.bg-dark {
+  background-color: #12002b;
+  padding: 0.5rem 0 5rem 0;
+}
+
+.edit-button {
+  border-color: #00bc77;
+  background-color: #00bc77;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.edit-form{
+  max-width: 300px;
+  margin: 0 auto;
+}

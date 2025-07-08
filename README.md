@@ -1,47 +1,47 @@
  
- \# ArgentBank
+ # ArgentBank
  
- !\[React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
- !\[Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
- !\[MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white)
- 
- ---
- 
- \## 📌 Objectifs
- 
- \### Phase 1
- \- Mise en place d’un système d’authentification sécurisé
- \- Fonctionnalité de modification du nom d’utilisateur
- 
- \### Phase 2
- \- Création du fichier `swagger.yaml` pour la documentation de l’API
+ ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+ ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
+ ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white)
  
  ---
  
- \## ⚙️ Prérequis
+ ## 📌 Objectifs
+ 
+ ### Phase 1
+ - Mise en place d’un système d’authentification sécurisé
+ - Fonctionnalité de modification du nom d’utilisateur
+ 
+ ### Phase 2
+ - Création du fichier `swagger.yaml` pour la documentation de l’API
+ 
+ ---
+ 
+ ## ⚙️ Prérequis
  
  Assurez-vous d’avoir les éléments suivants installés sur votre machine :
  
- \- \[Git](https://git-scm.com/)
- \- \[Node.js v12](https://nodejs.org/en/)
- \- \[MongoDB Community Server](https://www.mongodb.com/try/download/community)
+ - [Git](https://git-scm.com/)
+ - [Node.js v12](https://nodejs.org/en/)
+ - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
  
  ---
  
- \## 📦 Dépendances principales
+ ## 📦 Dépendances principales
  
- \### Frontend
- \- \[React](https://reactjs.org/): `^18.2.0`
- \- \[React Router DOM](https://reactrouter.com/): `6.10.0`
- \- \[React Redux](https://react-redux.js.org/): `8.1.3`
- \- \[Redux](https://redux.js.org/): `4.2.1`
- \- \[@reduxjs/toolkit](https://redux-toolkit.js.org/): `1.9.7`
+ ### Frontend
+ - [React](https://reactjs.org/): `^18.2.0`
+ - [React Router DOM](https://reactrouter.com/): `6.10.0`
+ - [React Redux](https://react-redux.js.org/): `8.1.3`
+ - [Redux](https://redux.js.org/): `4.2.1`
+ - [@reduxjs/toolkit](https://redux-toolkit.js.org/): `1.9.7`
  
  ---
  
- \## 🚀 Installation
+ ## 🚀 Installation
  
- \### 🔧 Cloner le projet
+ ### 🔧 Cloner le projet
  
  bash
  git clone https://github.com/romain2008-dot/argentbank
@@ -84,4 +84,4 @@
  npm run dev
  🖼️ Aperçu de l’application
  
- !\[image du site](image\_site.png)
+ ![image du site](image_site.png)

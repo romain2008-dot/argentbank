@@ -43,45 +43,56 @@
  
  ### 🔧 Cloner le projet
  
- bash
- git clone https://github.com/romain2008-dot/argentbank
+ 
+ `git clone https://github.com/romain2008-dot/argentbank`
+
  🔙 Backend
  Aller dans le dossier Backend :
  
- cd Backend
+ `cd Backend`
+
  Vérifier vos versions de Node.js et MongoDB :
  
- node --version
- mongo --version
+ `node --version`
+
+ `mongo --version`
+
  Installer les dépendances :
  
- npm install ou yarn
+ `npm install` ou `yarn`
+
  Démarrer le serveur backend :
  
- npm run dev:server
+` npm run dev:server`
+
  Initialiser la base de données avec des utilisateurs fictifs :
  
- npm run populate-db
+ `npm run populate-db`
+
  ✅ Utilisateurs injectés
  
+ ```
  Tony Stark
- Email : tony@stark.com
- Mot de passe : password123
- 
+Email : tony@stark.com
+Mot de passe : password123
+```
+ ```
  Steve Rogers
  Email : steve@rogers.com
  Mot de passe : password456
+ ```
  
  💻 Frontend
  Aller dans le dossier Frontend :
  
- cd Frontend
+ `cd Frontend`
  Installer les dépendances :
  
- npm install
+ `npm install`
  Lancer l’application :
  
- npm run dev
+ `npm run dev`
+ 
  🖼️ Aperçu de l’application
  
  ![image du site](image_site.png)

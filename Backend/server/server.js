@@ -3,7 +3,12 @@ const dotEnv = require('dotenv')
 const cors = require('cors')
 const swaggerUi = require('swagger-ui-express')
 const yaml = require('yamljs')
-const swaggerDocs = yaml.load('../swagger.yaml')
+const path = require('path')
+// Corriger le chemin du swagger pour la production
+const swaggerPath = process.env.NODE_ENV === 'production' 
+  ? path.join(__dirname, '../swagger.yaml')
+  : '../swagger.yaml'
+const swaggerDocs = yaml.load(swaggerPath)
 const dbConnection = require('./database/connection')
 
 dotEnv.config()

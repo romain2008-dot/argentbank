@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { API_ENDPOINTS } from '../../config/api'
 
 // === UPDATE USERNAME ===
 export const updateUserName = createAsyncThunk(
@@ -12,7 +13,7 @@ export const updateUserName = createAsyncThunk(
         return rejectWithValue('Token manquant')
       }
 
-      const response = await fetch('http://localhost:3001/api/v1/user/profile', {
+      const response = await fetch(API_ENDPOINTS.PROFILE, {
         method: 'PUT',
         headers: {
           Authorization: `Bearer ${token}`,
@@ -46,7 +47,7 @@ export const getUserProfile = createAsyncThunk(
     }
 
     try {
-      const response = await fetch('http://localhost:3001/api/v1/user/profile', {
+      const response = await fetch(API_ENDPOINTS.PROFILE, {
         method: 'GET',
         headers: {
           'Authorization': `Bearer ${token}`,

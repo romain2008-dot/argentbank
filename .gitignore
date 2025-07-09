@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+
+# Environment variables
+.env
+.env.local
+*.local
+
+# Logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project specific files
+DEPLOYMENT_GUIDE.md
+DEPLOYMENT_VERCEL.md
+QUICK_START_VERCEL.md
+PORTFOLIO_DEPLOYMENT.md
+ADD_DATA_GUIDE.md 

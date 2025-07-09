@@ -21,7 +21,10 @@
   "scripts": {
     "dev:server": "nodemon ./server/server.js",
     "populate-db": "node ./server/scripts/populateDatabase.js",
-    "server": "node ./server/server.js"
+    "populate-mongodb": "node ./server/scripts/populateMongoDB.js",
+    "server": "node ./server/server.js",
+    "build": "echo 'Build completed'",
+    "start": "node ./server/server.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

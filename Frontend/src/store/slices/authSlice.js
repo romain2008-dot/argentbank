@@ -1,4 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { API_ENDPOINTS } from '../../config/api'
 
 // Fonction utilitaire pour gérer le stockage
 const getStoredToken = () => {
@@ -15,7 +16,7 @@ export const loginUser = createAsyncThunk(
   'auth/loginUser',
   async ({ email, password, rememberMe }, { rejectWithValue }) => {
     try {
-      const response = await fetch('http://localhost:3001/api/v1/user/login', {
+      const response = await fetch(API_ENDPOINTS.LOGIN, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
